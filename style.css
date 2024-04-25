@@ -1,0 +1,128 @@
+/* Prueba */ 
+
+.miclase{
+    background-color: brown;
+}
+
+/* tarea de clase 4*/
+
+.Lunes_Rojo{
+    background-color: red;
+    font-size: 20px;
+}
+.Lunes_Horario{
+    background-color: red;
+}
+
+.Martes_Verde{
+    background-color: green;
+    font-size: 20px;
+}
+.Martes_Horario{
+    background-color: green;
+}
+
+.Miercoles_Azul{
+    background-color: blue;
+    font-size: 20px;
+}
+.Miercoles_Horario{
+    background-color: blue;
+}
+
+.Jueves_Rosa{
+    background-color: pink;
+    font-size: 20px;
+}
+.Jueves_Horario{
+    background-color:pink;
+}
+
+.Viernes_Amarillo{
+    background-color: yellow;
+    font-size: 20px;
+}
+.Viernes_Horario{
+    background-color: yellow;
+}
+
+.Sabado_Violeta{
+    background-color:blueviolet;
+    font-size: 20px;
+}
+.Sabado_Horario{
+    background-color: blueviolet;
+}
+
+
+
+
+/* ejercicio de clase 5*/
+
+
+div{
+    width: 400px; height: 150px;
+    background-color: blue;
+    border: 4px dotted;
+    padding: 40px;
+    margin: 50px;
+    display: inline-table;
+    text-align: center;
+}
+div p{
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Impact;
+    font-size: 32px;
+    text-transform: 
+    uppercase;
+    color: royalblue; 
+}
+
+
+.Azul{
+    background-color: blue ;
+}
+
+.Verde{
+    background-color:darkgreen ;
+}
+
+.Rojo{
+    background-color:darkred ;
+}
+
+.Gris{
+    background-color:darkgrey;
+}
+
+/* TErminar*/
+
+/* Tarea clase 5 */
+
+.BarraNavegacion{
+    background-color: gainsboro;
+    height: 100px;
+    width: auto;
+    }
+
+.PiePagina{
+    background-color: gainsboro;
+    height: 100px;
+    width: auto;
+    text-align: justify;
+}
+
+.MiFormulario{
+    border-style: ridge;
+    border-width: 10px ; 
+    padding: 10px;
+
+    width: auto; height: auto;
+    background-color: rgb(255, 255, 255);
+    /*order: 4px dotted;
+    padding: 40px;*/
+    margin: 10px;
+    display: inline-table;
+    text-align:left;
+}
