@@ -126,3 +126,15 @@ div p{
     display: inline-table;
     text-align:left;
 }
+
+/* tarea clase 6*/
+
+ul {
+    display:flex ;
+    flex-direction: row;
+}
+
+footer{
+    display:flex ;
+    flex-direction: row;
+}
