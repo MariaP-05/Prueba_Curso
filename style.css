@@ -1,56 +1,56 @@
 /* Prueba */ 
 
-.miclase{
+.miclase {
     background-color: brown;
 }
 
 /* tarea de clase 4*/
 
-.Lunes_Rojo{
+.Lunes_Rojo {
     background-color: red;
     font-size: 20px;
 }
-.Lunes_Horario{
+.Lunes_Horario {
     background-color: red;
 }
 
-.Martes_Verde{
+.Martes_Verde {
     background-color: green;
     font-size: 20px;
 }
-.Martes_Horario{
+.Martes_Horario {
     background-color: green;
 }
 
-.Miercoles_Azul{
+.Miercoles_Azul {
     background-color: blue;
     font-size: 20px;
 }
-.Miercoles_Horario{
+.Miercoles_Horario {
     background-color: blue;
 }
 
-.Jueves_Rosa{
+.Jueves_Rosa {
     background-color: pink;
     font-size: 20px;
 }
-.Jueves_Horario{
+.Jueves_Horario {
     background-color:pink;
 }
 
-.Viernes_Amarillo{
+.Viernes_Amarillo {
     background-color: yellow;
     font-size: 20px;
 }
-.Viernes_Horario{
+.Viernes_Horario {
     background-color: yellow;
 }
 
-.Sabado_Violeta{
+.Sabado_Violeta {
     background-color:blueviolet;
     font-size: 20px;
 }
-.Sabado_Horario{
+.Sabado_Horario {
     background-color: blueviolet;
 }
 
@@ -60,7 +60,7 @@
 /* ejercicio de clase 5*/
 
 
-div{
+.Mi_primera_prueba {
     width: 400px; height: 150px;
     background-color: blue;
     border: 4px dotted;
@@ -69,7 +69,7 @@ div{
     display: inline-table;
     text-align: center;
 }
-div p{
+div p {
     display: table-cell;
     vertical-align: middle;
     font-family: Impact;
@@ -80,19 +80,19 @@ div p{
 }
 
 
-.Azul{
+.Azul {
     background-color: blue ;
 }
 
-.Verde{
+.Verde {
     background-color:darkgreen ;
 }
 
-.Rojo{
+.Rojo {
     background-color:darkred ;
 }
 
-.Gris{
+.Gris {
     background-color:darkgrey;
 }
 
@@ -100,20 +100,20 @@ div p{
 
 /* Tarea clase 5 */
 
-.BarraNavegacion{
+.BarraNavegacion {
     background-color: gainsboro;
     height: 100px;
     width: auto;
     }
 
-.PiePagina{
+.PiePagina {
     background-color: gainsboro;
     height: 100px;
     width: auto;
     text-align: justify;
 }
 
-.MiFormulario{
+.MiFormulario {
     border-style: ridge;
     border-width: 10px ; 
     padding: 10px;
@@ -134,7 +134,214 @@ ul {
     flex-direction: row;
 }
 
-footer{
+footer {
     display:flex ;
     flex-direction: row;
+}
+
+/* clase 7 */
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+}
+
+/* Estilos media queris*/
+
+.boxes {
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    width: 988px;
+    margin: 8 auto;
+    margin-top: 40px;
+}
+@media only screen and (min-width: 320px) and (max-width: 576px){
+    .boxes {
+        background-color: blueviolet;
+        width: 100%;
+        padding-left: 23 px;
+        flex-direction: column-reverse;
+    }
+    .cajas {
+        width: 100%;
+    }
+}
+
+/* Tarea clase 7*/
+
+.clase7 {
+    display: grid;
+    grid-template-columns: repeat(9 , 200px) ;
+    grid-auto-rows: 100px;
+    grid-column-gap: 10px ;
+    grid-row-gap: 1em;
+    
+}
+
+.clase7A {
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-gap: 10px ;
+    grid-row-gap: 1em;
+}
+
+.clase7B {
+    background-color: aquamarine;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-column-gap: 10px ;
+    grid-row-gap: 1em;
+
+}
+
+.clase7C {
+    background-color: cadetblue;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-column-gap: 10px ;
+    grid-row-gap: 1em;
+}
+
+.clase7D {
+    background-color:darkcyan;
+    grid-column-start: 1;
+    grid-row-start: 4;
+    grid-column-gap: 10px ;
+    grid-row-gap: 1em;
+}
+
+.clase7E {
+    background-color:cornflowerblue;
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-column-gap: 10px ;
+    grid-row-gap: 1em;
+}
+
+.clase7F {
+    background-color:darkblue;
+    grid-column-start: 1;
+    grid-row-start: 6;
+    grid-column-gap: 10px ;
+    grid-row-gap: 1em;
+}
+
+.clase7G {
+    background-color:darkslategray;
+    grid-column-start: 1;
+    grid-row-start: 7;
+    grid-column-gap: 10px ;
+    grid-row-gap: 1em;
+}
+
+.clase7H {
+    background-color:cyan;
+    grid-column-start: 1;
+    grid-row-start: 8;
+    grid-column-gap: 10px ;
+    grid-row-gap: 1em;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .clase7C {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        grid-column-gap: 10px ;
+        grid-row-gap: 1em;
+    }
+
+    .clase7D {
+        grid-column-start: 2;
+        grid-row-start: 2;
+        grid-column-gap: 10px ;
+        grid-row-gap: 1em;
+    }
+    .clase7E {
+        grid-column-start: 1;
+        grid-row-start: 3;
+        grid-column-gap: 10px ;
+        grid-row-gap: 1em;
+    }
+
+    .clase7F {
+        grid-column-start: 2;
+        grid-row-start: 3;
+        grid-column-gap: 10px ;
+        grid-row-gap: 1em;
+    }
+
+    .clase7G {
+        grid-column-start: 1;
+        grid-row-start: 4;
+        grid-column-gap: 10px ;
+        grid-row-gap: 1em;
+    }
+
+    .clase7H {
+        grid-column-start: 2;
+        grid-row-start: 4;
+        grid-column-gap: 10px ;
+        grid-row-gap: 1em;
+    }
+
+    .clase7I {
+        background-color: lightblue;
+        grid-column-start: 1;
+        grid-row-start: 5;
+        grid-column-gap: 10px ;
+        grid-row-gap: 1em;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1280px){
+    .clase7C {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        grid-column-gap: 10px ;
+        grid-row-gap: 1em;
+    }
+
+    .clase7D {
+        grid-column-start: 2;
+        grid-row-start: 2;
+        grid-column-gap: 10px ;
+        grid-row-gap: 1em;
+    }
+    .clase7E {
+        grid-column-start: 3;
+        grid-row-start:1 ;
+        grid-column-gap: 10px ;
+        grid-row-gap: 1em;
+    }
+
+    .clase7F {
+        grid-column-start: 3;
+        grid-row-start: 2;
+        grid-column-gap: 10px ;
+        grid-row-gap: 1em;
+    }
+
+    .clase7G {
+        grid-column-start: 1;
+        grid-row-start: 3;
+        grid-column-gap: 10px ;
+        grid-row-gap: 1em;
+    }
+
+    .clase7H {
+        grid-column-start: 2;
+        grid-row-start: 3;
+        grid-column-gap: 10px ;
+        grid-row-gap: 1em;
+    }
+
+    .clase7I {
+        background-color: lightblue;
+        grid-column-start: 3;
+        grid-row-start: 3;
+        grid-column-gap: 10px ;
+        grid-row-gap: 1em;
+    }
 }
